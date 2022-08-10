@@ -27,9 +27,16 @@ elif door == "2":
 
   insanity = input("> ")
 
-  if insanity == "1" or insanity == "2":
+  if insanity == "1":
     print("Your body survives powered by a mind of jello.")
     print("Good job!")
+  elif insanity == "2":
+    print("The shifting undulating colors swirl into a swarm and drag your mind away.")
+    print("Good Job!")
+  elif insanity == "3":
+    print("The melodies whisper within your brain and you start to sing along.")
+    print("You escape but are incomprehensible to anyone who is sane.")
+    print("Good Job!")
   else:
     print("The insanity rots your eyes into a pool of muck.")
     print("Good job!")
