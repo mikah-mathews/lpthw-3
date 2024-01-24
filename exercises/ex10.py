@@ -9,7 +9,9 @@ I'll do a list:
 \t* Catnip\n\t* Grass
 """
 
-print(tabby_cat)
-print(persian_cat)
-print(backslash_cat)
-print(fat_cat)
+mad_cat = '''
+"hi there, I'm here to help"
+"I really want to be a mad cat who commits acts of violence towards \nthose who hurt you."
+'''
+
+print(mad_cat)
