@@ -12,13 +12,15 @@ print(f"Here's your file {filename}:")
 # prints contents of txt file
 print(txt.read())
 
+txt.close()
+
 # print statement to let users know what they should do next
-print("Type the filename again:")
-# gets name of txt file that user wants to use
-file_again = input("> ")
+# print("Type the filename again:")
+# # gets name of txt file that user wants to use
+# file_again = input("> ")
 
-# returns file object
-txt_again = open(file_again)
+# # returns file object
+# txt_again = open(file_again)
 
-# prints output of .read() function on file object
-print(txt_again.read())
+# # prints output of .read() function on file object
+# print(txt_again.read())
