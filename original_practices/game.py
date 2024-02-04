@@ -13,6 +13,12 @@ if choice1 == "1":
     print("2. Yell down the tunnel")
     doorway = input("> ")
 
+    if doorway == "1":
+        print("You get eaten by goblins.")
+
+    elif doorway == "2":
+        print("Your voice echoes for a single moment before a large hand reaches out and pulls you to be devoured.")
+
 elif choice1 == "2":
     print("Your voice echoes around the room as you raise your voice.")
     print("In the distance you hear someone call back.")
