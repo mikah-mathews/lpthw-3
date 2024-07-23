@@ -1,10 +1,20 @@
 from sys import exit
 
+# add function to check if input can be turned into int to prevent value errors
+def is_value_int(input_str):
+    try:
+        int(input_str)
+        return True
+    except ValueError:
+        return False
+
 def gold_room():
     print("This room is full of gold. How much do you take?")
 
     choice = input("> ")
-    if "0" in choice or "1" in choice:
+    
+    # check to see if choice can be converted into number
+    if is_value_int(choice):
         how_much = int(choice)
     else:
         dead("Man, learn to type a number.")
